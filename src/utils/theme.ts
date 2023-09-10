@@ -1,0 +1,15 @@
+export const themeStyle = {
+	whiteText: '#ffffff',
+	blackColor: '#000',
+	fontFamily: 'playfair-display',
+	fontWeight: 100,
+	largeFont: 30,
+	headerColor: '#41566b',
+	darkLayout: 'rgba(0, 0, 0, 0.7)',
+	textTransform: 'uppercase',
+	fontSize: 20,
+	notchColor: '#2aaede',
+	redColor: '#992b4a',
+	greenColor: '#35a1ab',
+	blueColor: '#4f6e9c',
+};
