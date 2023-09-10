@@ -1,20 +1,20 @@
 type ClubImageProps = {
-	url: string;
-	imageStyle: string;
-	imageContaier: string;
+  url: string;
+  imageStyle: string;
+  imageContaier: string;
 };
 
 export default function Image(props: ClubImageProps) {
-	const { url, imageStyle, imageContaier } = props;
+  const { url, imageStyle, imageContaier } = props;
 
-	return (
-		<div className={imageContaier}>
-			<img
-				src={'http://localhost:8080/' + url}
-				className={imageStyle}
-				alt='User Iamge'
-			/>
-			;
-		</div>
-	);
+  return (
+    <div className={imageContaier}>
+      <img
+        src={'https://club-manager-api.onrender.com' + url}
+        className={imageStyle}
+        alt='User Iamge'
+      />
+      ;
+    </div>
+  );
 }
