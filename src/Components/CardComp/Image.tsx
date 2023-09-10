@@ -10,7 +10,7 @@ export default function Image(props: ClubImageProps) {
   return (
     <div className={imageContaier}>
       <img
-        src={'https://club-manager-api.onrender.com' + url}
+        src={'https://club-manager-api.onrender.com/' + url}
         className={imageStyle}
         alt='User Iamge'
       />
